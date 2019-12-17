@@ -1,4 +1,8 @@
 server:
   port: 8082
 userRole: ExpUser
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
