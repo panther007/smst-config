@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: user-service
+management:
+  endpoint:
+    web:
+      exposure:
+        include: *
