@@ -1,8 +1,4 @@
 server:
   port: 8082
 userRole: testUser
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+
