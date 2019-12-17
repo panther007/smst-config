@@ -1,6 +1,6 @@
 server:
   port: 8082
-userRole: ExpUser
+userRole: testUser
 management:
   endpoints:
     web:
